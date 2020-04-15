@@ -1,6 +1,6 @@
 package com.archmix
 
-abstract class DevelopersPortalClass implements Serializable {
+public class DevelopersPortalClass implements Serializable {
 
     void commitFilesDevelopersPortal(service,
                                      gitUrl,
