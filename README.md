@@ -1,0 +1,1 @@
+Configuration: https://jenkins.io/doc/book/pipeline/shared-libraries/#using-libraries
