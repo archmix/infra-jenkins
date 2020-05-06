@@ -7,7 +7,7 @@ def call(service,
     def pathMetada = "src/data/metadata/"
     sh "git clone $gitUrl $folderRepository"
     sh "mkdir -p $folderRepository/$pathMetada"
-    sh "cp -r $pathSources $folderRepository"
+    sh "cp -r $pathSources $folderRepository/src"
     sh "git config --global user.email '$gitCommitEmail'"
     sh "git config --global user.name '$gitCommitUsername'"
     sh "cd $folderRepository && git add ."
